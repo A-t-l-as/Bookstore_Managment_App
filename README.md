@@ -15,6 +15,7 @@ produktów.
 
 ## Screenshot z wersji z GUI
 <img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/aplikacja_gui.png?raw=true" alt="Screenshot"/>
+<img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/filtry.png?raw=true" alt="Screenshot"/>
 
 Użytkownik w prosty i wygodny sposób może dokonywać operacji na sklepie za pomocą klikania we właściwe przyciski. Kliknięcie przycisku
 wykonuje odpowiednią operacje lub wywołuje odpowiednie okno z dodatkowymi opcjami. Wprowadzanie danych do programu, zrealizowane
@@ -24,7 +25,7 @@ wykonania zadania. <br>
 Aplikacja umożliwia wygodne i bezpieczne zarządzanie sklepem z książkami. Ze względu na prosty interfejs graficzny, pracownik sklepu nie jest
 rozpraszany nadmiarem opcji i w bardzo krótkim czasie może przyswoić obsługę programu.
 
-## Screenshot z wersji z konsolowej
+## Screenshot z wersji konsolowej
 <img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/aplikacja_konsolowa.png?raw=true" alt="Screenshot"/>
 
 Pod tabelą wyświetlany jest aktualny stan gotówki. Wszelkie opcje, z których można skorzystać, wymieniono w postaci numerów wraz z
@@ -35,5 +36,3 @@ odpowiedni komunikat informujący o wprowadzeniu nieznanej wartości i prosi uż
 Aplikacja działa w taki sposób, że po wprowadzeniu wszystkich wymaganych wartości przez użytkownika, wykonuje operacje na sklepie po
 czym odświeża całkowity pogląd na magazyn i stan gotówki.
 
-
-Bookstore managment application, made in java with Swing.
