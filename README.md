@@ -50,7 +50,7 @@ W metodzie `sortByT()` zastosowałem sprytne rozwiązanie problemu sortowania li
 
 Dzięki temu uniknąłem błędów związanych z próbą sortowania obiektów, które nie mają odpowiednich pól, a jednocześnie zachowałem wszystkie elementy z oryginalnej listy.
 
-[Kod:](https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/source_code/Bookstore_final/Shop/src/warehouse/CWarehouse.java)<br>
+[Kod](https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/source_code/Bookstore_final/Shop/src/warehouse/CWarehouse.java)<br>
 
 # EN:
 
@@ -99,4 +99,4 @@ In the `sortByT()` method, I used a clever solution to the problem of sorting a 
 
 This allowed me to avoid errors associated with attempting to sort objects that do not have the appropriate fields, while retaining all items from the original list.
 
-[Code:](https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/source_code/Bookstore_final/Shop/src/warehouse/CWarehouse.java)<br>
+[Code](https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/source_code/Bookstore_final/Shop/src/warehouse/CWarehouse.java)<br>
