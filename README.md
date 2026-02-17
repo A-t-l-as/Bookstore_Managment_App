@@ -37,6 +37,19 @@ odpowiedni komunikat informujący o wprowadzeniu nieznanej wartości i prosi uż
 Aplikacja działa w taki sposób, że po wprowadzeniu wszystkich wymaganych wartości przez użytkownika, wykonuje operacje na sklepie po
 czym odświeża całkowity pogląd na magazyn i stan gotówki.
 
+## Sortowanie listy obiektów
+
+W metodzie `sortByT()` zastosowałem sprytne rozwiązanie problemu sortowania listy zawierającej różne typy obiektów dziedziczących po `CLiterature`.
+
+**Problem:** Lista `warehouse` może zawierać różne podtypy `CLiterature`, z których tylko niektóre mają pola potrzebne do sortowania.
+
+**Rozwiązanie:**
+1. Wyfiltrowanie z listy tylko obiektów konkretnego typu `T` (które na pewno mają wymagane pola)
+2. Posortowanie tej przefiltrowanej listy według zadanego komparatora
+3. Zbudowanie wynikowej listy: najpierw posortowane obiekty typu `T`, potem wszystkie pozostałe obiekty w oryginalnej kolejności
+
+Dzięki temu uniknąłem błędów związanych z próbą sortowania obiektów, które nie mają odpowiednich pól, a jednocześnie zachowałem wszystkie elementy z oryginalnej listy.
+
 # EN:
 
 ## An application supporting the management of a bookstore
@@ -70,3 +83,16 @@ entered and asks the user to enter the correct number. <br>
 
 The application works in such a way that after the user enters all the required values, it performs operations on the store and then refreshes the 
 overall view of the warehouse and cash balance.
+
+## Sorting the list of objects
+
+In the `sortByT()` method, I used a clever solution to the problem of sorting a list containing different types of objects inheriting from `CLiterature`.
+
+**Problem:** The `warehouse` list may contain different subtypes of `CLiterature`, only some of which have the fields needed for sorting.
+
+**Solution:**
+1. Filter only objects of a specific type `T` (which definitely have the required fields) from the list.
+2. Sort this filtered list according to the specified comparator.
+3. Build the resulting list: first the sorted objects of type `T`, then all other objects in their original order.
+
+This allowed me to avoid errors associated with attempting to sort objects that do not have the appropriate fields, while retaining all items from the original list.
