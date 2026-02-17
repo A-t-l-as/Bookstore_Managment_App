@@ -2,7 +2,7 @@
 
 # PL:
 
-# Aplikacja wspomagająca zarządzanie sklepem handlującym książkami
+## Aplikacja wspomagająca zarządzanie sklepem handlującym książkami
  
 Celem projektu było utworzenie aplikacji w języku Java wspomagającej zarządzanie sklepem
 handlującym książkami, audiobookami i e-bookami. Program miał za zadanie umożliwić
@@ -13,7 +13,8 @@ Rezultatem prac jest w pełni funkcjonalna aplikacja wyposażona w interfejs kon
 graficzny (Swing), która oferuje zaawansowane mechanizmy sortowania i wyszukiwania
 produktów.
 
-# Screenshot
+## Screenshot
+<img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/aplikacja_gui.png?raw=true" alt="Screenshot"/>
 
 
 
