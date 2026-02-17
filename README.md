@@ -13,9 +13,10 @@ Rezultatem prac jest w pełni funkcjonalna aplikacja wyposażona w interfejs kon
 graficzny (Swing), która oferuje zaawansowane mechanizmy sortowania i wyszukiwania
 produktów.
 
-## Screenshot z wersji z GUI
+## Screenshoty z wersji z GUI
 <img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/aplikacja_gui.png?raw=true" alt="Screenshot"/>
 <img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/filtry.png?raw=true" alt="Screenshot"/>
+<img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/sell_single_product.png?raw=true" alt="Screenshot"/>
 
 Użytkownik w prosty i wygodny sposób może dokonywać operacji na sklepie za pomocą klikania we właściwe przyciski. Kliknięcie przycisku
 wykonuje odpowiednią operacje lub wywołuje odpowiednie okno z dodatkowymi opcjami. Wprowadzanie danych do programu, zrealizowane
@@ -36,3 +37,36 @@ odpowiedni komunikat informujący o wprowadzeniu nieznanej wartości i prosi uż
 Aplikacja działa w taki sposób, że po wprowadzeniu wszystkich wymaganych wartości przez użytkownika, wykonuje operacje na sklepie po
 czym odświeża całkowity pogląd na magazyn i stan gotówki.
 
+# EN:
+
+## An application supporting the management of a bookstore
+ 
+The aim of the project was to create a Java application to support the management of a store selling books, 
+audiobooks, and e-books. The program was designed to enable effective monitoring of product availability, categorization, 
+and the process of receiving and selling products.
+
+The result of this work is a fully functional application equipped with a console and graphical interface (Swing), which 
+offers advanced product sorting and search mechanisms.
+
+## Screenshots from the GUI version
+<img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/aplikacja_gui.png?raw=true" alt="Screenshot"/>
+<img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/filtry.png?raw=true" alt="Screenshot"/>
+<img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/sell_single_product.png?raw=true" alt="Screenshot"/>
+
+The user can easily and conveniently perform operations in the store by clicking the appropriate buttons. Clicking a button performs 
+the appropriate operation or opens a window with additional options. Data is entered into the program using dialog boxes (pop-ups), in which 
+the user enters the appropriate values or clicks the appropriate option to perform the task. <br>
+
+The application enables convenient and secure management of a bookstore. Thanks to its simple graphical interface, store employees are not distracted
+by an excess of options and can quickly learn how to use the program.
+
+## Screenshot from the console version
+<img src="https://github.com/A-t-l-as/Bookstore_Managment_App/blob/main/docs/aplikacja_konsolowa.png?raw=true" alt="Screenshot"/>
+
+The current cash balance is displayed below the table. All available options are listed as numbers with descriptions. The options are separated 
+by the `|` character to imitate the appearance of a button. At the very bottom, the user is asked to enter the appropriate numerical value corresponding 
+to the desired option. If an incorrect option number is entered, the application displays a message informing the user that an unknown value has been 
+entered and asks the user to enter the correct number. <br>
+
+The application works in such a way that after the user enters all the required values, it performs operations on the store and then refreshes the 
+overall view of the warehouse and cash balance.
